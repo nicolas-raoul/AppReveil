@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_toRightOf="@+id/Launch" android:layout_alignTop="@+id/Launch" android:layout_alignBottom="@+id/Launch" android:text="@string/stop" android:id="@+id/Stop_Alarm" android:textSize="15px"></Button>
+    <Button android:layout_width="wrap_content" android:text="@string/launch" android:layout_height="wrap_content" android:id="@+id/Launch" android:layout_alignParentBottom="true" android:textSize="15px"></Button>
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50px">
+        <LinearLayout android:layout_width="wrap_content" android:layout_marginBottom="40dip" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout1">
+            <TextView android:textSize="20px" android:layout_width="wrap_content" android:text="@string/titre" android:layout_height="wrap_content" android:id="@+id/titre" android:layout_marginLeft="20dip"></TextView>
+            <TextView android:textSize="35px" android:layout_width="wrap_content" android:text="@string/stimer" android:typeface="sans" android:layout_height="wrap_content" android:id="@+id/timer" android:layout_gravity="center"></TextView>
+            <Button android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setTimer" android:layout_gravity="center" android:textSize="15px" android:id="@+id/setTimer"></Button>
+            <View android:background="#FFE0E0E0" android:layout_width="wrap_content" android:id="@+id/view1" android:layout_height="5dip"></View>
+            <TextView android:textSize="20px" android:layout_width="wrap_content" android:text="@string/titre2" android:layout_height="wrap_content" android:id="@+id/titre2" android:layout_marginLeft="20dip"></TextView>
+            <RadioGroup android:layout_marginLeft="25dip" android:id="@+id/radioGroup1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:text="@string/R0" android:layout_height="wrap_content" android:checked="true" android:id="@+id/radio0" android:layout_width="wrap_content"></RadioButton>
+                <EditText android:layout_height="wrap_content" android:text="EditText" android:layout_width="wrap_content" android:id="@+id/editText1" android:layout_marginLeft="25dip"></EditText>
+                <RadioButton android:text="@string/R1" android:layout_height="wrap_content" android:id="@+id/radio1" android:layout_width="wrap_content"></RadioButton>
+                <RadioButton android:text="@string/R2" android:layout_height="wrap_content" android:id="@+id/radio2" android:layout_width="wrap_content"></RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

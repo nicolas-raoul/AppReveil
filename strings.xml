@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, myAlarm!</string>
+    <string name="app_name">Mon reveil</string>
+    <string name="titre">Heure de l\'alarme :</string>
+    <string name="stimer">XX:XX</string>
+    <string name="setTimer">Changer l\'alarme</string>
+    <string name="active">Alarme active</string>
+    <string name="launch">Lancer</string>
+    <string name="stop">Stoper</string>
+    <string name="repeating_scheduled">repetition programmée !</string><string name="repeating_unscheduled">repetition déprogrammée!</string>
+    <string name="alarm_service_started">Alarme démarée !</string>
+    <string name="alarm_service_finished">Alarme terminée !</string>
+    <string name="reveil">Debout maintenant</string>
+    <string name="snooze">snooze</string>
+    <string name="titre2">Type de sonnerie :</string>
+    <string name="R0">Fichier local</string>
+    <string name="R1">Fichier distant</string>
+    <string name="R2">Par default</string>
+</resources>
